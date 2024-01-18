@@ -6,4 +6,9 @@ public class ValidationService {
             throw new IllegalArgumentException("Out of range");
         }
     }
+    public void validateRoman(String roman){
+        if (roman == null || roman.isEmpty()) {
+            throw new IllegalArgumentException("Text cannot be null or empty");
+        }
+    }
 }

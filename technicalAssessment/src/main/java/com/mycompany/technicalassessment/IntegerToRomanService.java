@@ -18,10 +18,8 @@ public class IntegerToRomanService {
     public IntegerToRomanService(ValidationService validationService) {
         this.validationService = validationService;
     }
-
     public String converterRoman(int number) {
         validationService.validateNumber(number);
-
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < numbers.length; i++) {
             while (number >= numbers[i]) {
