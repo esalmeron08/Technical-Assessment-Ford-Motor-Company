@@ -13,10 +13,7 @@ public class ValidationService {
         if (!roman.matches("^[IVXLCDM]+$")) {
             throw new IllegalArgumentException("Is not a roman numeral");
         }
-        if (roman.matches(".*IIII.*|.*XXXX.*|.*CCCC.*|.*MMMM.*")) {
-            throw new IllegalArgumentException("Roman Numeral is not valid");
-        }
-        if (roman.matches(".*VV.*|.*LL.*|.*DD.*")) {
+        if (roman.matches(".*(IIII|XXXX|CCCC|MMMM|VV|LL|DD).*")) {
             throw new IllegalArgumentException("Roman Numeral is not valid");
         }
     }
