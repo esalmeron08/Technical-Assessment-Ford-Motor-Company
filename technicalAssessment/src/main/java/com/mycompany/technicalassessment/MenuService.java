@@ -16,17 +16,19 @@ public class MenuService {
     public void startMenu() {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Hi! Welcome to my Technical Assessment");
-
             int option;
             do {
                 displayMenuOptions();
                 option = scanner.nextInt();
                 scanner.nextLine();
-
-                processOption(option, scanner);
+                try {
+                    processOption(option, scanner);
+                } catch (IllegalArgumentException e) {
+                    System.err.println("Error in validation: " + e.getMessage());
+                }
             } while (option != 3);
-        } catch (IllegalArgumentException e) {
-            System.err.println("Error in validation: " + e.getMessage());
+        } catch (java.util.InputMismatchException e) {
+            System.err.println("Invalid input " + e.getMessage());
         }
     }
 
