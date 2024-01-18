@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97aba0c7-4530-4079-867e-fa053396f08a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technicalAssessment/src/test/java/integerToRomanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/src/test/java/integerToRomanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technicalAssessment/target/test-classes/integerToRomanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/target/test-classes/integerToRomanTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +39,7 @@
     "last_opened_file_path": "/Users/enriquesalmeron/Documents/Technical-Assessment-Ford-Motor-Company"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.integerToRomanTest.convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException">
-    <configuration name="TechnicalAssessment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.technicalassessment.TechnicalAssessment" />
-      <module name="technicalAssessment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mycompany.technicalassessment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in technicalAssessment">
     <configuration name="All in technicalAssessment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="technicalAssessment" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,11 +48,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="integerToRomanTest.convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="integerToRomanTest.convertToRoman_Negative_ThrowsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="technicalAssessment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="integerToRomanTest" />
-      <option name="METHOD_NAME" value="convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException" />
+      <option name="METHOD_NAME" value="convertToRoman_Negative_ThrowsIllegalArgumentException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="integerToRomanTest.convertToRoman_Zero_ThrowsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="technicalAssessment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="integerToRomanTest" />
+      <option name="METHOD_NAME" value="convertToRoman_Zero_ThrowsIllegalArgumentException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="integerToRomanTest.integerToRomanThreeT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="technicalAssessment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="integerToRomanTest" />
+      <option name="METHOD_NAME" value="integerToRomanThreeT" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="integerToRomanTest.integerToRomanTwenty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="technicalAssessment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="integerToRomanTest" />
+      <option name="METHOD_NAME" value="integerToRomanTwenty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,9 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.integerToRomanTest.convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException" />
         <item itemvalue="JUnit.All in technicalAssessment" />
-        <item itemvalue="Application.TechnicalAssessment" />
+        <item itemvalue="JUnit.integerToRomanTest.integerToRomanThreeT" />
+        <item itemvalue="JUnit.integerToRomanTest.integerToRomanTwenty" />
+        <item itemvalue="JUnit.integerToRomanTest.convertToRoman_Negative_ThrowsIllegalArgumentException" />
+        <item itemvalue="JUnit.integerToRomanTest.convertToRoman_Zero_ThrowsIllegalArgumentException" />
       </list>
     </recent_temporary>
   </component>

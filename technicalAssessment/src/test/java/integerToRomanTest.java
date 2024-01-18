@@ -1,9 +1,6 @@
 
 import com.mycompany.technicalassessment.IntegerToRoman;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -24,9 +21,7 @@ public class integerToRomanTest {
         this.service = new IntegerToRoman();
     }
     @Test
-    public void integerToRomanOne(){
-        assertEquals("I",service.converterRoman(1));
-    }
+    public void integerToRomanOne(){assertEquals("I",service.converterRoman(1));}
     @Test
     public void integerToRomanFive(){
         assertEquals("V",service.converterRoman(5));
@@ -40,8 +35,11 @@ public class integerToRomanTest {
         assertEquals("XX",service.converterRoman(20));
     }
     @Test
-    public void convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException() {
-        assertThrows(IllegalArgumentException.class, () -> service.converterRoman(4000));
-    }
-
+    public void integerToRomanThreeT(){assertEquals("MMM",service.converterRoman(3000));}
+    @Test
+    public void convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException() {assertThrows(IllegalArgumentException.class, () -> service.converterRoman(3001));}
+    @Test
+    public void convertToRoman_Zero_ThrowsIllegalArgumentException() {assertThrows(IllegalArgumentException.class, () -> service.converterRoman(0));}
+    @Test
+    public void convertToRoman_Negative_ThrowsIllegalArgumentException() {assertThrows(IllegalArgumentException.class, () -> service.converterRoman(-1));}
 }
