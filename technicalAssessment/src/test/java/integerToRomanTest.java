@@ -1,4 +1,5 @@
 
+import com.mycompany.technicalassessment.IntegerToRoman;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,24 +13,32 @@ import org.junit.jupiter.api.Test;
  * TESTS ---> With any integer, show the roman numeral
  * 
  * 
- * 
  */
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class integerToRomanTest {
-    
+    public IntegerToRoman service;
+    @BeforeEach
+    public void setUp(){
+        this.service = new IntegerToRoman();
+    }
+    @Test
     public void integerToRomanOne(){
-        assertEquals("I",integerToRoman.converterRoman(1));
+        assertEquals("I",service.converterRoman(1));
     }
+    @Test
     public void integerToRomanFive(){
-        assertEquals("V",integerToRoman.converterRoman(5));
+        assertEquals("V",service.converterRoman(5));
     }
+    @Test
     public void integerToRomanTen(){
-        assertEquals("X",integerToRoman.converterRoman(10));
+        assertEquals("X",service.converterRoman(10));
     }
+    @Test
     public void integerToRomanTwenty(){
-        assertEquals("XX",integerToRoman.converterRoman(20));
+        assertEquals("XX",service.converterRoman(20));
     }
+
     
 }
