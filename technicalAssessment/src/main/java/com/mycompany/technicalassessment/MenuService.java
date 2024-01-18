@@ -14,9 +14,7 @@ public class MenuService {
     }
 
     public void startMenu() {
-        Scanner scanner = new Scanner(System.in);
-
-        try {
+        try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Hi! Welcome to my Technical Assessment");
 
             int option;
@@ -29,8 +27,6 @@ public class MenuService {
             } while (option != 3);
         } catch (IllegalArgumentException e) {
             System.err.println("Error in validation: " + e.getMessage());
-        } finally {
-            scanner.close();
         }
     }
 
@@ -40,17 +36,10 @@ public class MenuService {
 
     private void processOption(int option, Scanner scanner) {
         switch (option) {
-            case 1:
-                processIntegerToRoman(scanner);
-                break;
-            case 2:
-                processRomanToInteger(scanner);
-                break;
-            case 3:
-                System.out.println("Bye!");
-                break;
-            default:
-                System.out.println("Invalid option. Please select a valid option.");
+            case 1 -> processIntegerToRoman(scanner);
+            case 2 -> processRomanToInteger(scanner);
+            case 3 -> System.out.println("Bye!");
+            default -> System.out.println("Invalid option. Please select a valid option.");
         }
     }
 

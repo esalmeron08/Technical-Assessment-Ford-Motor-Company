@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97aba0c7-4530-4079-867e-fa053396f08a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technicalAssessment/src/test/java/RomanToIntegerServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technicalAssessment/src/test/java/integerToRomanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/src/test/java/integerToRomanServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/IntegerToRomanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/IntegerToRomanService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/MenuService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/TechnicalAssessment.class" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/TechnicalAssessment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technicalAssessment/target/test-classes/integerToRomanTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,20 @@
     "last_opened_file_path": "/Users/enriquesalmeron/Documents/Technical-Assessment-Ford-Motor-Company"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RomanToIntegerServiceTest">
+  <component name="RunManager" selected="Application.TechnicalAssessment">
+    <configuration name="TechnicalAssessment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.technicalassessment.TechnicalAssessment" />
+      <module name="technicalAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.technicalassessment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanToIntegerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="technicalAssessment" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,23 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToIntegerServiceTest.testConvertToInteger_ValidRoman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="technicalAssessment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RomanToIntegerServiceTest" />
-      <option name="METHOD_NAME" value="testConvertToInteger_ValidRoman" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TechnicalAssessment" />
         <item itemvalue="JUnit.RomanToIntegerServiceTest" />
         <item itemvalue="JUnit.RomanToIntegerServiceTest.testConvertToInteger_InvalidRoman" />
         <item itemvalue="JUnit.RomanToIntegerServiceTest.testConvertToInteger_EmptyRoman" />
         <item itemvalue="JUnit.RomanToIntegerServiceTest.testConvertToInteger_NullRoman" />
-        <item itemvalue="JUnit.RomanToIntegerServiceTest.testConvertToInteger_ValidRoman" />
       </list>
     </recent_temporary>
   </component>
