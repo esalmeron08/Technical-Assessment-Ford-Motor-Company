@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97aba0c7-4530-4079-867e-fa053396f08a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/ValidationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/IntegerToRomanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/TechnicalAssessment.java" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/TechnicalAssessment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technicalAssessment/src/test/java/integerToRomanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/src/test/java/integerToRomanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/IntegerToRoman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/TechnicalAssessment.class" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/TechnicalAssessment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technicalAssessment/target/test-classes/integerToRomanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/target/test-classes/integerToRomanTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +51,20 @@
     "last_opened_file_path": "/Users/enriquesalmeron/Documents/Technical-Assessment-Ford-Motor-Company"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in technicalAssessment">
+  <component name="RunManager" selected="Application.TechnicalAssessment">
+    <configuration name="TechnicalAssessment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.technicalassessment.TechnicalAssessment" />
+      <module name="technicalAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.technicalassessment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in technicalAssessment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="technicalAssessment" />
       <option name="PACKAGE_NAME" value="" />
@@ -53,16 +78,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="integerToRomanTest" />
       <option name="METHOD_NAME" value="convertToRoman_Negative_ThrowsIllegalArgumentException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="integerToRomanTest.convertToRoman_Zero_ThrowsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="technicalAssessment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="integerToRomanTest" />
-      <option name="METHOD_NAME" value="convertToRoman_Zero_ThrowsIllegalArgumentException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TechnicalAssessment" />
         <item itemvalue="JUnit.All in technicalAssessment" />
         <item itemvalue="JUnit.integerToRomanTest.integerToRomanThreeT" />
         <item itemvalue="JUnit.integerToRomanTest.integerToRomanTwenty" />
         <item itemvalue="JUnit.integerToRomanTest.convertToRoman_Negative_ThrowsIllegalArgumentException" />
-        <item itemvalue="JUnit.integerToRomanTest.convertToRoman_Zero_ThrowsIllegalArgumentException" />
       </list>
     </recent_temporary>
   </component>
