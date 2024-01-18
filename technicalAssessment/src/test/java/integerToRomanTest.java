@@ -39,6 +39,4 @@ public class integerToRomanTest {
     public void integerToRomanTwenty(){
         assertEquals("XX",service.converterRoman(20));
     }
-
-    
 }

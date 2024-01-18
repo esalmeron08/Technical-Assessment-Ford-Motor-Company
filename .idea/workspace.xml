@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97aba0c7-4530-4079-867e-fa053396f08a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/TechnicalAssessment.java" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/TechnicalAssessment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/integerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/IntegerToRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/src/main/java/com/mycompany/technicalassessment/IntegerToRoman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technicalAssessment/src/test/java/integerToRomanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/src/test/java/integerToRomanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/target/classes/com/mycompany/technicalassessment/IntegerToRoman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technicalAssessment/target/test-classes/integerToRomanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/technicalAssessment/target/test-classes/integerToRomanTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     "last_opened_file_path": "/Users/enriquesalmeron/Documents/Technical-Assessment-Ford-Motor-Company"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TechnicalAssessment">
+  <component name="RunManager" selected="JUnit.integerToRomanTest.convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException">
     <configuration name="TechnicalAssessment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.technicalassessment.TechnicalAssessment" />
       <module name="technicalAssessment" />
@@ -61,10 +63,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="integerToRomanTest.convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="technicalAssessment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="integerToRomanTest" />
+      <option name="METHOD_NAME" value="convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TechnicalAssessment" />
+        <item itemvalue="JUnit.integerToRomanTest.convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException" />
         <item itemvalue="JUnit.All in technicalAssessment" />
+        <item itemvalue="Application.TechnicalAssessment" />
       </list>
     </recent_temporary>
   </component>

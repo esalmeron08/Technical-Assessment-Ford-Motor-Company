@@ -10,22 +10,20 @@ package com.mycompany.technicalassessment;
  *
  */
 public class IntegerToRoman {
-    private static final String[] roman = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
-    private static final int[] numbers = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+    private static final String[] romans = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+    private static final int[] numbers = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
 
     public String converterRoman(int number) {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         if (number <= 0 || number > 3000) {
             throw new IllegalArgumentException("Out of range");
         }
-
         for (int i = 0; i < numbers.length; i++) {
             while (number >= numbers[i]) {
-                result += roman[i];
+                result.append(romans[i]);
                 number -= numbers[i];
             }
         }
-
-        return result;
+        return result.toString();
     }
 }
