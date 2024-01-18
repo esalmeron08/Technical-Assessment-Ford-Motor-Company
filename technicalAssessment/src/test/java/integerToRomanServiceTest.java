@@ -1,21 +1,11 @@
-/**
- *
- * @author José Enrique Salmerón Leal
- *
- * TESTS ---> With any integer, show the roman numeral
- *
- *
- */
-
-
 import com.mycompany.technicalassessment.IntegerToRomanService;
 import com.mycompany.technicalassessment.ValidationService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-public class integerToRomanTest {
+public class integerToRomanServiceTest {
 
     private ValidationService validationService;
     private IntegerToRomanService service;
