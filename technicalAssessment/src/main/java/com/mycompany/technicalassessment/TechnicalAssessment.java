@@ -4,6 +4,7 @@ package com.mycompany.technicalassessment;
 /**
  *
  * @author José Enrique Salmerón Leal
+ * 
  */
 
 public class TechnicalAssessment {
