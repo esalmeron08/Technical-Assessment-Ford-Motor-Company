@@ -39,4 +39,9 @@ public class integerToRomanTest {
     public void integerToRomanTwenty(){
         assertEquals("XX",service.converterRoman(20));
     }
+    @Test
+    public void convertToRoman_NumberGreaterThan3000_ThrowsIllegalArgumentException() {
+        assertThrows(IllegalArgumentException.class, () -> service.converterRoman(4000));
+    }
+
 }
